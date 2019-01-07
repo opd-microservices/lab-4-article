@@ -1,0 +1,9 @@
+---
+spring:
+  profiles:
+    active: article
+  application:
+    name: lab-4-article
+  cloud:
+    config:
+      uri: http://localhost:8001
